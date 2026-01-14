@@ -85,7 +85,7 @@
     } else if f == "S" {
       [#get-en-suffix(day-int)]
     } else if f == "s" {
-      [$zws^#get-en-suffix(day-int)$]
+      [#super[#get-en-suffix(day-int)]]
     }
     else {
       f
